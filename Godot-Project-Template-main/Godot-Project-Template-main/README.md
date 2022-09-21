@@ -8,7 +8,7 @@ Description
 Which features you included
 
 ## References
-Ship Sprite- created by "Ship Mixer" by Kenny.https://kenney.itch.io/ship-mixer
+Ship Sprite- created using "Ship Mixer" by Kenny.https://kenney.itch.io/ship-mixer
 
 ## Future Development
 
