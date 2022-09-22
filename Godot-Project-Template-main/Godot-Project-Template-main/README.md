@@ -1,4 +1,4 @@
-# Project Name
+# 02-Space-Shooter
 
 Context and date
 
@@ -8,8 +8,9 @@ Description
 Which features you included
 
 ## References
+Ship Sprite- created using "Ship Mixer" by Kenny.https://kenney.itch.io/ship-mixer
 
 ## Future Development
 
 ## Created by
-Jason Francis
+Daniel Gramling
