@@ -1,24 +1,29 @@
 extends Node
 var VP = Vector2.ZERO
 var score =0
-var lives = 5
+var lives = 0
 func _ready():
 	pause_mode = Node.PAUSE_MODE_PROCESS
 	VP = get_viewport().size
 	var _signal = get_tree().get_root().connect("size_changed", self, "_resize")
-	update_score(0)
-	update_lives(0)
+	#update_score(0)
+	#update_lives(0)
 
 func _unhandled_input(_event):
 	if Input.is_action_pressed("quit"):
 		get_tree().quit()
 
+func reset():
+	score = 0
+	lives = 5
 
 func _resize():
 	VP = get_viewport().size
 	
 func update_lives(l):
 	lives += l
+	if lives <= 0:
+		var _scene = get_tree().change_scene("res://UI/End_Game.tscn")
 	if lives <= 0:
 		var _scene = get_tree().change_scene("res://UI/End_Game.tscn")
 	var Lives = get_node_or_null("/root/Game/UI/HUD/Lives")
