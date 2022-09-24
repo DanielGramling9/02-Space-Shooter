@@ -1,8 +1,8 @@
 # Space Shooter
 
-Project 02 for BL-MSCH-C220 at Indiana University
+Project 02 for BL-MSCH-C220 at Indiana University Bloomingtoon
 
-A simple 2D space shooter
+A 2D space shooter
 
 ## Implementation
 
@@ -20,4 +20,4 @@ https://opengameart.org/content/explosion-sheet
 None
 
 ## Created by
-Jason Francis
+Daniel Gramling
