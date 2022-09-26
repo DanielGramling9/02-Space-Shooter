@@ -2,6 +2,8 @@
 
 Project 02 for BL-MSCH-C220 at Indiana University Bloomingtoon
 
+9/25/2022
+
 A 2D space shooter
 
 ## Implementation
