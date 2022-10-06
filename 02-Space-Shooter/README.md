@@ -7,6 +7,7 @@ Project 02 for BL-MSCH-C220 at Indiana University Bloomingtoon
 A 2D space shooter
 
 ## Implementation
+Based on youtube series and finished Github template.
 
 Keyboard control, top-down ship that can shoot asteroids and an enemy
 
